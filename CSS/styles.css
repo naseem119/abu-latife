@@ -4,25 +4,92 @@ body {
     font-family: 'Noto Kufi Arabic', sans-serif;
 }
 
+/*navigation menu and buttons*/
+
 #mainNavBar {
-    background-color: rgba(255, 228, 196, 0.82);
+    background-color: #383c44;
     padding: 5px 0 5px 0;
 }
 
 #mainTitle {
-    border: 3px solid black;
+    border: 3px solid white;
     padding: 10px;
+    color: white;
+}
+
+#mainTitle:hover {
+    background: white;
+    color: black;
 }
 
 #dropdownItems, #dropdownItems2 {
     text-align: right;
 }
 
-.wall{
-    background: url("../images/wall/wall.png");
+.navButton {
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
 }
+
+.navButton:hover {
+    background: white;
+    color: black;
+}
+
+/*wall and content*/
+
+.wall {
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
 
 #wallImage {
     width: 100%;
     filter: blur(3px);
+}
+
+/*sections and contents*/
+
+.sections {
+    display: flex;
+}
+
+.section-titles {
+    border-radius: 5px;
+    border: 3px solid;
+    color: #383c44;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 5vh;
+    display: inline-block;
+}
+
+.quiz-section {
+    padding: 10px;
+    background: #fffcfc;
+    border: 1px solid #d5d5d5;
+}
+
+.section-buttons {
+    width: 70%;
+    padding: 10px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+/*about us section*/
+.about-us {
+    margin-top: 5%;
+    background: #383c44;
+    padding: 5%;
+}
+
+@media (max-width: 1000px) {
+    .sections {
+        display: block;
+    }
 }
