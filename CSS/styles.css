@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@300&family=Noto+Sans+Arabic:wght@300&display=swap');
+
+body {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+
+#mainNavBar {
+    background-color: rgba(255, 228, 196, 0.82);
+    padding: 5px 0 5px 0;
+}
+
+#mainTitle {
+    border: 3px solid black;
+    padding: 10px;
+}
+
+#dropdownItems, #dropdownItems2 {
+    text-align: right;
+}
+
+.wall{
+    background: url("../images/wall/wall.png");
+}
+
+#wallImage {
+    width: 100%;
+    filter: blur(3px);
+}
