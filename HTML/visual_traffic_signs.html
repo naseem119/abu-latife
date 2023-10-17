@@ -1,0 +1,1358 @@
+<!doctype html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>مدرسة أبو لطيفة لتعليم السياقة</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../CSS/styles.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/visual_traffic_signs_styles.css">
+</head>
+<body>
+
+<!--nav menu-->
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-light" id="mainNavBar">
+    <div class="container-fluid">
+        <a class="navbar-brand active" id="mainTitle" href="../index.html">مدرسة أبو لطيفة</a>
+        <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link navButton" aria-current="page" href="../index.html">الرئيسية</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle navButton" href="#" id="navbarDropdown2" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        أدرس التؤوريا
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="dropdownItems2">
+                        <li><a class="dropdown-item" href="#">المادة النظرية</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="visual_traffic_signs.html">اشارات المرور</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="practical_traffic_signs.html">اشارات المرور - فعلي</a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">اشارات المرور - شرح مفصل</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle navButton" href="#" id="navbarDropdown" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        امتحانات التؤوريا
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="dropdownItems">
+                        <li><a class="dropdown-item" style="color: black;" href="#">تؤوريا خصوصي</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">تؤوريا شحن</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">تؤوريا باص و عمومي</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">تؤوريا دراجة نارية</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navButton" href="#" tabindex="-1" aria-disabled="true">من نحن</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--tables and its content-->
+<div style="text-align: center; margin-top: 100px" id="top_of_the_page">
+    <h1 class="section-titles" style="margin: 3rem; font-size: 20px;"><span class="titles">إشارات المرور - نظري</span>
+    </h1>
+    <div class="visual">
+        <a type="button" class="btn btn-outline-primary traffic-signs-buttons" href="#warning">
+                <span class="btn_img">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                         class="bi bi-exclamation-octagon-fill" viewBox="0 0 16 16">
+                        <path d="M11.46.146A.5.5 0 0 0 11.107 0H4.893a.5.5 0 0 0-.353.146L.146 4.54A.5.5 0 0 0 0 4.893v6.214a.5.5 0 0 0 .146.353l4.394 4.394a.5.5 0 0 0 .353.146h6.214a.5.5 0 0 0 .353-.146l4.394-4.394a.5.5 0 0 0 .146-.353V4.893a.5.5 0 0 0-.146-.353L11.46.146zM8 4c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995A.905.905 0 0 1 8 4zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                    </svg>
+                </span>
+            <span class="btn_txt" style="font-size: 20px">اشارات التحذير</span>
+        </a>
+        <a type="button" class="btn btn-outline-primary traffic-signs-buttons" href="#guidance">
+                <span class="btn_img">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                         class="bi bi-signpost-split-fill" viewBox="0 0 16 16">
+  <path d="M7 16h2V6h5a1 1 0 0 0 .8-.4l.975-1.3a.5.5 0 0 0 0-.6L14.8 2.4A1 1 0 0 0 14 2H9v-.586a1 1 0 0 0-2 0V7H2a1 1 0 0 0-.8.4L.225 8.7a.5.5 0 0 0 0 .6l.975 1.3a1 1 0 0 0 .8.4h5v5z"/>
+</svg>
+                </span>
+            <span class="btn_txt" style="font-size: 20px">اشارات الإرشاد</span>
+        </a>
+        <a type="button" class="btn btn-outline-primary traffic-signs-buttons" href="#query">
+                <span class="btn_img">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                         class="bi bi-question-square-fill" viewBox="0 0 16 16">
+  <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm3.496 6.033a.237.237 0 0 1-.24-.247C5.35 4.091 6.737 3.5 8.005 3.5c1.396 0 2.672.73 2.672 2.24 0 1.08-.635 1.594-1.244 2.057-.737.559-1.01.768-1.01 1.486v.105a.25.25 0 0 1-.25.25h-.81a.25.25 0 0 1-.25-.246l-.004-.217c-.038-.927.495-1.498 1.168-1.987.59-.444.965-.736.965-1.371 0-.825-.628-1.168-1.314-1.168-.803 0-1.253.478-1.342 1.134-.018.137-.128.25-.266.25h-.825zm2.325 6.443c-.584 0-1.009-.394-1.009-.927 0-.552.425-.94 1.01-.94.609 0 1.028.388 1.028.94 0 .533-.42.927-1.029.927z"/>
+</svg>
+                </span>
+            <span class="btn_txt" style="font-size: 20px">اشارات الاستعلامات</span>
+        </a>
+        <a type="button" class="btn btn-outline-primary traffic-signs-buttons" href="#road">
+                <span class="btn_img">
+                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                         width="30" height="30" viewBox="0 0 64.000000 64.000000"
+                         preserveAspectRatio="xMidYMid meet">
+
+<g transform="translate(0.000000,64.000000) scale(0.100000,-0.100000)"
+   fill="currentColor" stroke="none">
+<path d="M189 632 c-11 -2 -39 -85 -102 -309 -77 -275 -90 -329 -72 -311 3 3
+36 112 72 243 37 131 69 233 70 228 2 -5 -15 -85 -37 -177 -41 -172 -47 -207
+-31 -190 11 12 124 490 119 507 -2 7 -10 11 -19 9z m-22 -124 c-3 -8 -6 -5 -6
+6 -1 11 2 17 5 13 3 -3 4 -12 1 -19z"/>
+<path d="M301 640 c-1 -3 -4 -42 -7 -87 l-6 -83 32 0 32 0 -5 81 c-5 77 -17
+123 -17 66 0 -35 -17 -35 -23 1 -2 15 -5 25 -6 22z m29 -120 c0 -16 -4 -30
+-10 -30 -5 0 -10 14 -10 30 0 17 5 30 10 30 6 0 10 -13 10 -30z"/>
+<path d="M430 618 c0 -22 28 -137 38 -152 3 -5 8 -2 12 8 3 11 32 -76 73 -219
+36 -131 69 -240 72 -243 18 -18 5 36 -72 310 -69 246 -90 307 -105 311 -13 4
+-18 0 -18 -15z m47 -110 c-3 -8 -6 -5 -6 6 -1 11 2 17 5 13 3 -3 4 -12 1 -19z"/>
+<path d="M297 454 c-4 -4 -7 -29 -7 -56 0 -47 1 -48 31 -48 l30 0 -3 53 c-3
+44 -6 52 -23 55 -12 2 -24 0 -28 -4z m33 -49 c0 -19 -4 -35 -10 -35 -5 0 -10
+16 -10 35 0 19 5 35 10 35 6 0 10 -16 10 -35z"/>
+<path d="M470 442 c0 -18 98 -424 104 -429 3 -4 8 -4 10 -2 7 7 -97 439 -106
+439 -4 0 -8 -4 -8 -8z"/>
+<path d="M285 276 c-11 -68 -5 -81 35 -81 40 0 46 13 35 81 -6 40 -9 44 -35
+44 -26 0 -29 -4 -35 -44z m55 -21 c0 -38 -3 -45 -20 -45 -17 0 -20 7 -20 45 0
+38 3 45 20 45 17 0 20 -7 20 -45z"/>
+<path d="M287 154 c-11 -12 -9 -156 3 -149 6 3 10 35 10 71 0 57 2 64 20 64
+18 0 20 -7 20 -64 0 -36 5 -68 10 -71 7 -5 10 19 8 72 l-3 78 -30 3 c-17 2
+-34 0 -38 -4z"/>
+<path d="M68 75 c-12 -22 -18 -65 -8 -65 5 0 12 11 16 25 6 26 1 55 -8 40z"/>
+</g>
+</svg>
+                </span>
+            <span class="btn_txt" style="font-size: 20px">الاشارات المرسومة على سطح الطريق</span>
+        </a>
+        <a type="button" class="btn btn-outline-primary traffic-signs-buttons" href="#lights">
+                <span class="btn_img">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                         class="bi bi-stoplights" viewBox="0 0 16 16">
+  <path d="M8 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm0 4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm1.5 2.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+  <path d="M4 2a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2h2c-.167.5-.8 1.6-2 2v2h2c-.167.5-.8 1.6-2 2v2h2c-.167.5-.8 1.6-2 2v1a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-1c-1.2-.4-1.833-1.5-2-2h2V8c-1.2-.4-1.833-1.5-2-2h2V4c-1.2-.4-1.833-1.5-2-2h2zm2-1a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H6z"/>
+</svg>
+                </span>
+            <span class="btn_txt" style="font-size: 20px">الآلات الضوئية</span>
+        </a>
+        <a type="button" class="btn btn-outline-primary traffic-signs-buttons" href="#helping">
+                <span class="btn_img">
+                    <svg height="30" viewBox="0 -3 430.08 430" width="30" fill="currentColor"
+                         xmlns="http://www.w3.org/2000/svg"><path
+                            d="m354.988281 404.519531h-27.308593c-3.769532 0-6.828126-3.054687-6.828126-6.828125v-109.226562c0-3.769532 3.058594-6.824219 6.828126-6.824219h27.308593c3.769531 0 6.824219 3.054687 6.824219 6.824219v109.226562c0 3.773438-3.054688 6.828125-6.824219 6.828125zm-20.480469-13.652343h13.652344v-95.574219h-13.652344zm0 0"/><path
+                            d="m354.988281 117.800781h-27.308593c-3.769532 0-6.828126-3.054687-6.828126-6.828125v-42.660156c0-3.769531 3.058594-6.824219 6.828126-6.824219 3.773437 0 6.828124 3.054688 6.828124 6.824219v35.835938h13.652344v-35.835938c0-3.769531 3.054688-6.824219 6.828125-6.824219 3.769531 0 6.824219 3.054688 6.824219 6.824219v42.660156c0 3.773438-3.054688 6.828125-6.824219 6.828125zm0 0"/><path
+                            d="m99.125 295.292969h-92.296875c-3.773437 0-6.828125-3.054688-6.828125-6.828125v-177.492188c0-3.769531 3.054688-6.824218 6.828125-6.824218h86.128906c2.742188 0 5.21875 1.636718 6.289063 4.164062 1.070312 2.53125.519531 5.449219-1.386719 7.414062l-78.449219 80.90625 84.609375 87.074219c1.917969 1.96875 2.460938 4.894531 1.394531 7.421875-1.070312 2.527344-3.539062 4.164063-6.289062 4.164063zm-85.472656-13.652344h69.324218l-69.324218-71.332031zm0-163.839844v65.152344l63.183594-65.152344zm0 0"/><path
+                            d="m181.046875 295.292969h-81.921875c-1.84375 0-3.613281-.746094-4.894531-2.066407l-89.230469-91.828124c-2.574219-2.644532-2.578125-6.859376-.007812-9.511719l83.070312-85.667969c1.285156-1.328125 3.054688-2.070312 4.898438-2.070312h81.921874c2.738282 0 5.21875 1.636718 6.285157 4.164062 1.070312 2.53125.519531 5.449219-1.382813 7.414062l-78.457031 80.90625 84.613281 87.074219c1.914063 1.96875 2.460938 4.894531 1.390625 7.421875-1.066406 2.527344-3.539062 4.164063-6.285156 4.164063zm-79.03125-13.652344h62.878906l-77.972656-80.242187c-2.574219-2.644532-2.582031-6.859376-.007813-9.511719l71.839844-74.085938h-62.90625l-76.4375 78.832031zm0 0"/><path
+                            d="m423.253906 288.851562c-1.804687 0-3.589844-.71875-4.902344-2.070312l-84.378906-86.90625c-2.601562-2.675781-2.570312-6.949219.070313-9.582031l84.179687-84.144531c1.28125-1.28125 3.011719-2 4.824219-2 3.773437 0 7.03125 3.054687 7.03125 6.824218v171.054688c0 2.777344-1.6875 5.277344-4.261719 6.328125-.828125.328125-1.695312.496093-2.5625.496093zm-74.792968-93.65625 67.964843 70v-137.945312zm0 0"/><path
+                            d="m423.253906 295.292969h-75.613281c-1.847656 0-3.613281-.746094-4.894531-2.066407l-89.40625-92c-2.574219-2.648437-2.578125-6.863281-.003906-9.515624l82.898437-85.492188c1.285156-1.328125 3.054687-2.070312 4.902344-2.070312h81.917969c2.761718 0 5.253906 1.664062 6.308593 4.210937 1.0625 2.550781.472657 5.484375-1.480469 7.441406l-79.421874 79.394531 79.695312 82.078126c1.230469 1.273437 1.921875 2.980468 1.921875 4.753906v6.441406c0 3.769531-3.054687 6.824219-6.824219 6.824219zm-72.726562-13.652344h62.832031l-79.386719-81.765625c-2.601562-2.675781-2.570312-6.949219.070313-9.582031l72.519531-72.492188h-62.546875l-76.269531 78.660157zm0 0"/><path
+                            d="m347.640625 295.292969h-88.746094c-1.847656 0-3.613281-.746094-4.894531-2.066407l-89.40625-92c-2.574219-2.648437-2.578125-6.863281-.007812-9.515624l82.902343-85.492188c1.285157-1.328125 3.054688-2.070312 4.902344-2.070312h88.746094c2.738281 0 5.21875 1.636718 6.285156 4.164062 1.070313 2.53125.519531 5.449219-1.386719 7.414062l-78.289062 80.734376 84.785156 87.246093c1.917969 1.96875 2.460938 4.894531 1.394531 7.421875-1.070312 2.527344-3.539062 4.164063-6.285156 4.164063zm-85.863281-13.652344h69.707031l-78.144531-80.414063c-2.574219-2.648437-2.578125-6.863281-.003906-9.515624l71.671874-73.910157h-69.734374l-76.273438 78.660157zm0 0"/><path
+                            d="m258.894531 295.292969h-77.847656c-1.847656 0-3.613281-.746094-4.894531-2.066407l-89.230469-91.828124c-2.574219-2.644532-2.582031-6.859376-.007813-9.511719l83.066407-85.667969c1.285156-1.328125 3.054687-2.070312 4.902343-2.070312h77.507813c2.738281 0 5.21875 1.636718 6.285156 4.164062 1.070313 2.53125.519531 5.449219-1.386719 7.414062l-78.289062 80.734376 84.785156 87.246093c1.914063 1.96875 2.460938 4.894531 1.394532 7.421875-1.070313 2.527344-3.539063 4.164063-6.285157 4.164063zm-74.960937-13.652344h58.808594l-78.148438-80.414063c-2.574219-2.648437-2.578125-6.863281-.007812-9.515624l71.675781-73.910157h-58.496094l-76.4375 78.832031zm0 0"/><path
+                            d="m382.292969 425h-81.917969c-3.773438 0-6.828125-3.054688-6.828125-6.828125v-20.480469c0-3.769531 3.054687-6.824218 6.828125-6.824218h81.917969c3.773437 0 6.828125 3.054687 6.828125 6.824218v20.480469c0 3.773437-3.054688 6.828125-6.828125 6.828125zm-75.09375-13.652344h68.265625v-6.828125h-68.265625zm0 0"/><path
+                            d="m340.765625 75.140625c-20.703125 0-37.550781-16.847656-37.550781-37.546875 0-20.707031 16.847656-37.5546875 37.550781-37.5546875 20.699219 0 37.546875 16.8476565 37.546875 37.5546875 0 20.699219-16.847656 37.546875-37.546875 37.546875zm0-61.449219c-13.179687 0-23.898437 10.722656-23.898437 23.902344 0 13.171875 10.71875 23.894531 23.898437 23.894531 13.171875 0 23.894531-10.722656 23.894531-23.894531 0-13.179688-10.722656-23.902344-23.894531-23.902344zm0 0"/><path
+                            d="m102.398438 404.519531h-27.304688c-3.773438 0-6.828125-3.054687-6.828125-6.828125v-109.226562c0-3.769532 3.054687-6.824219 6.828125-6.824219h27.304688c3.773437 0 6.828124 3.054687 6.828124 6.824219v109.226562c0 3.773438-3.054687 6.828125-6.828124 6.828125zm-20.476563-13.652343h13.652344v-95.574219h-13.652344zm0 0"/><path
+                            d="m102.398438 117.800781h-27.304688c-3.773438 0-6.828125-3.054687-6.828125-6.828125v-42.660156c0-3.769531 3.054687-6.824219 6.828125-6.824219 3.769531 0 6.828125 3.054688 6.828125 6.824219v35.835938h13.652344v-35.835938c0-3.769531 3.054687-6.824219 6.824219-6.824219 3.773437 0 6.828124 3.054688 6.828124 6.824219v42.660156c0 3.773438-3.054687 6.828125-6.828124 6.828125zm0 0"/><path
+                            d="m129.707031 425h-81.921875c-3.769531 0-6.824218-3.054688-6.824218-6.828125v-20.480469c0-3.769531 3.054687-6.824218 6.824218-6.824218h81.921875c3.769531 0 6.828125 3.054687 6.828125 6.824218v20.480469c0 3.773437-3.058594 6.828125-6.828125 6.828125zm-75.09375-13.652344h68.265625v-6.828125h-68.265625zm0 0"/><path
+                            d="m88.179688 75.140625c-20.703126 0-37.554688-16.847656-37.554688-37.546875 0-20.707031 16.851562-37.5546875 37.554688-37.5546875 20.699218 0 37.546874 16.8476565 37.546874 37.5546875 0 20.699219-16.847656 37.546875-37.546874 37.546875zm0-61.449219c-13.179688 0-23.898438 10.722656-23.898438 23.902344 0 13.171875 10.71875 23.894531 23.898438 23.894531 13.171874 0 23.894531-10.722656 23.894531-23.894531 0-13.179688-10.722657-23.902344-23.894531-23.902344zm0 0"/></svg>
+                </span>
+            <span class="btn_txt" style="font-size: 20px">الاشارات المساعدة</span>
+        </a>
+    </div>
+</div>
+
+
+<div class="signs_tables" id="warning">
+    <table>
+        <tr>
+            <td colspan="3" style="text-align: center;">شاخصات (إشارات) التحذير</td>
+        </tr>
+        <tr>
+            <td class="sign_txt">أ-1</td>
+            <td class="sign_txt">أ-2</td>
+            <td class="sign_txt">أ-3</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/1.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/2.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/3.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">طريق وعرة أو مشوشة</td>
+            <td class="sign_txt">انعطاف حاد إلى اليسار</td>
+            <td class="sign_txt">انعطاف حاد إلى اليمين</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td class="sign_txt">أ-5</td>
+            <td class="sign_txt">أ-7</td>
+            <td class="sign_txt">أ-8</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/4.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/5.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/6.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">انعطاف شديد الالتواء نحو اليمين</td>
+            <td class="sign_txt">انعطاف إلى اليمين وثم إلى اليسار</td>
+            <td class="sign_txt">طريق ملتوية</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td class="sign_txt">أ-9</td>
+            <td class="sign_txt">أ-10</td>
+            <td class="sign_txt">أ-11</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/7.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/8.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/9.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">الطريق آخذة في الضيق</td>
+            <td class="sign_txt">جسر ضيق</td>
+            <td class="sign_txt">أشغال على الطريق</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">أ-12</td>
+            <td class="sign_txt">أ-14</td>
+            <td class="sign_txt">أ-15</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/10.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/11.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/12.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">مفترق تقاطع طرق</td>
+            <td class="sign_txt">مفترق تفرع طرق إلى اليمين</td>
+            <td class="sign_txt">مفترق تفرع طرق إلى اليمين والى اليسار</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td class="sign_txt">أ-17</td>
+            <td class="sign_txt">أ-18</td>
+            <td class="sign_txt">أ-19</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/13.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/14.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/15.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">مفترق تفرعات: نحو اليمين وثم نحو اليسار</td>
+            <td class="sign_txt">حركة سير دائرية على بعد 50-150 متر</td>
+            <td class="sign_txt">آلة ضوئية على بعد 50-150 متر</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">أ-20</td>
+            <td class="sign_txt">أ-22</td>
+            <td class="sign_txt">أ-24</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/16.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/17.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/18.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">اندماج شارع فيه حق<br> الأولوية مع طريق جانبية من اليمين<br>(ممنوع الاستدارة إلى
+                الطريق الجانبية)
+            </td>
+            <td class="sign_txt">اندماج مع شارع فيه حق الأولوية<br>(ممنوع الاستدارة إلى اليسار)</td>
+            <td class="sign_txt">اكتظاظ في حركة السير أمامك</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">أ-25</td>
+            <td class="sign_txt">أ-28</td>
+            <td class="sign_txt">أ-29</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/19.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/20.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/21.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">ملتقى سكة حديد</td>
+            <td class="sign_txt">الاقتراب من ملتقى سكة حديد على بعد 250م</td>
+            <td class="sign_txt">الاقتراب من ملتقى سكة حديد على بعد 170م</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">أ-30</td>
+            <td class="sign_txt">أ-32</td>
+            <td class="sign_txt">أ-33</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/22.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/23.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/24.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">الاقتراب من ملتقى سكة حديد على بعد 100م</td>
+            <td class="sign_txt">مكان ملتقى سكة حديد<br>(أكثر من خط واحد على بعد 10م)</td>
+            <td class="sign_txt">أمامك إشارة "قف"</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">أ-34</td>
+            <td class="sign_txt">أ-35</td>
+            <td class="sign_txt">أ-36</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/25.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/26.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/27.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">منحدر خطر<br>(مع ذكر نسبة الانحدار أو بدونها)</td>
+            <td class="sign_txt">خطر التزحلق</td>
+            <td class="sign_txt">أمامك ممر للمشاة</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">أ-37</td>
+            <td class="sign_txt">أ-38</td>
+            <td class="sign_txt">أ-39</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/28.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/29.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/30.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">مشاة بالقرب من المكان</td>
+            <td class="sign_txt">أمامك حركة سير بالاتجاهين<br>(توضع على بداية المقطع)</td>
+            <td class="sign_txt">ضوضاء طائرات على ارتفاع منخفض</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">أ-40</td>
+            <td class="sign_txt">أ-43</td>
+            <td class="sign_txt">أ-46</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/31.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/32.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/33.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">مكان خطر لم تُحدد له شاخصة خاصة<br>(يُذكر نوع الخطر على الشاخصة أ-43)</td>
+            <td class="sign_txt">شاخصة للتحذير والإرشاد والمنع - للإعلام</td>
+            <td class="sign_txt">مطبات أمامك</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">أ-48</td>
+
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/34.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">مركبة زراعية تقطع الطريق</td>
+
+        </tr>
+
+    </table>
+</div>
+<div class="signs_tables" id="guidance">
+    <table>
+        <tr>
+            <td colspan="3" style="text-align: center;">شاخصات (إشارات) الإرشاد</td>
+        </tr>
+        <tr>
+            <td class="sign_txt">ب-1</td>
+            <td class="sign_txt">ب-2</td>
+            <td class="sign_txt">ب-3</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/35.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/36.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/37.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">مغلق أمام جميع المركبات بما<br>في ذلك عربات اليد<br>(من كلا الاتجاهين)</td>
+            <td class="sign_txt">مغلق أمام جميع المركبات بما<br>في ذلك عربات اليد<br>(شارع باتجاه واحد)</td>
+            <td class="sign_txt">ممنوع الاستدارة نحو اليسار</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td class="sign_txt">ب-6</td>
+            <td class="sign_txt">ب-7</td>
+            <td class="sign_txt">ب-8</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/38.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/39.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/40.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">ممنوع الاستدارة إلى اليسار<br>للسير في الاتجاه المعاكس</td>
+            <td class="sign_txt">أعط حق الأولوية في الطريق<br>الضيقة لحركة السير المقابلة</td>
+            <td class="sign_txt">ممنوع التجاوز<br>أو العبور عن مركبة<br>ميكانيكية تسير على أكثر من<br>عجلتين في نفس
+                اتجاه السير
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">ب-9</td>
+            <td class="sign_txt">ب-10</td>
+            <td class="sign_txt">ب-11</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/41.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/42.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/43.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">نهاية مقطع الطريق الذي يسري عليه قيد التجاوز</td>
+            <td class="sign_txt">لا يجوز لمركبة تجارية يزيد وزنها<br>الإجمالي المسموح به عن 4 أطنان<br>أن تتجاوز أو أن
+                تمر عن مركبة ميكانيكية<br>تسير على اكثر من عجلتين
+            </td>
+            <td class="sign_txt">ممنوع التجاوز أو العبور عن مركبة ميكانيكية<br>تسير على<br>أكثر من عجلتين في نفس اتجاه
+                السير
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">ب-12</td>
+            <td class="sign_txt">ب-13</td>
+            <td class="sign_txt">ب-14</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/44.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/45.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/46.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">ممنوع دخول المركبات الميكانيكية باستثناء<br>الدراجة النارية بدون عربة جانبية</td>
+            <td class="sign_txt">ممنوع دخول الدراجات النارية</td>
+            <td class="sign_txt">ممنوع الدخول جميع المركبات الميكانيكية</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td class="sign_txt">ب-15</td>
+            <td class="sign_txt">ب-16</td>
+            <td class="sign_txt">ب-17</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/47.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/48.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/49.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">ممنوع دخول المركبات الميكانيكية التجارية<br>التي يزيد وزنها الإجمالي المسموح به<br>عما
+                هو مسجل في الشاخصة
+            </td>
+            <td class="sign_txt">ممنوع دخول جميع المركبات<br>التي يزيد وزنها الإجمالي<br>المسموح به عما هو مسجل في
+                الشاخصة
+            </td>
+            <td class="sign_txt">ممنوع دخول مركبة وحمولتها والتي يزيد<br>عرضها عما هو مسجل في الشاخصة</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">ب-18</td>
+            <td class="sign_txt">ب-20</td>
+            <td class="sign_txt">ب-21</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/50.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/51.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/52.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">ممنوع دخول مركبة وحمولتها والتي يزيد<br>ارتفاعها عما هو مسجل في الشاخصة</td>
+            <td class="sign_txt">سرعة خاصة: ممنوع السير بسرعة تزيد<br>عن عدد الكم/ساعة المسجل في الشاخصة</td>
+            <td class="sign_txt">نهاية المقطع الذي فيه السرعة الخاصة</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">ب-24</td>
+            <td class="sign_txt">ب-25</td>
+            <td class="sign_txt">ب-28</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/53.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/54.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/55.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">الدخول إلى طريق أو طرق بلدية</td>
+            <td class="sign_txt">نهاية الطريق أو الطرق البلدية</td>
+            <td class="sign_txt">ممنوع وقوف مركبة في الطريق في<br>الجهة التي أُقيمت فيها الشاخصة</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">ب-29</td>
+            <td class="sign_txt">ب-30</td>
+            <td class="sign_txt">ب-31</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/56.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/57.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/58.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">ممنوع الوقوف والتوقف في<br>الطريق في الجهة التي<br>أُقيمت فيها الشاخصة<br>إلا لتنفيذ
+                أمر قانوني
+            </td>
+            <td class="sign_txt">ممنوع وقوف مركبة تجارية<br>يزيد وزنها الإجمالي المسموح به عن<br>10000كغم في المنطقة
+                التي أُقيمت<br>في بدايتها الشاخصة
+            </td>
+            <td class="sign_txt">نهاية المنطقة التي يُمنع<br>فيها وقوف مركبة تجارية<br>يزيد وزنها الإجمالي<br>المسموح به
+                عن 10000كغم
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">ب-32</td>
+            <td class="sign_txt">ب-33</td>
+            <td class="sign_txt">ب-34</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/59.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/60.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/61.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">نهاية المنطقة التي<br>يُمنع فيها الوقوف أو التوقف<br>(إلغاء الشاخصتين رقم : ب-28 و
+                ب-29)
+            </td>
+            <td class="sign_txt">الدخول إلى منطقة<br>يحظر فيها دخول مركبة تعليم<br>السواقة أثناء التعليم ما عدا الباص
+            </td>
+            <td class="sign_txt">نهاية المنطقة التي<br>يحظر فيها دخول مركبة<br>تعليم السواقة أثناء التعليم</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">ب-35</td>
+            <td class="sign_txt">ب-36</td>
+            <td class="sign_txt">ب-37</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/62.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/63.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/64.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">يجوز السفر في الشارع أو في<br>المسلك للقطار الخفيف وللباص<br>والصالون العمومي وللمركبات<br>التي
+                تنقل على الأقل عدد<br>الركاب المذكور في الشاخصة
+            </td>
+            <td class="sign_txt">أعطِ حق الأولوية لحركة السير في<br>الطريق القاطعة أمامك</td>
+            <td class="sign_txt">قف!<br>وأعطِ حق الأولوية<br>لحركة السير في الطريق<br>القاطعة أمامك</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">ب-38</td>
+            <td class="sign_txt">ب-39</td>
+            <td class="sign_txt">ب-41</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/65.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/66.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/67.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">قف!<br>(شاخصة متنقلة)</td>
+            <td class="sign_txt">تقدم بحذر<br>(شاخصة متنقلة)</td>
+            <td class="sign_txt">سر إلى اليسار من أمام<br>الشاخصة إذا كان السهم<br>باللون الأصفر يدل على<br>اتجاه السير
+                للمواصلات<br>العمومية فقط
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">ب-43</td>
+            <td class="sign_txt">ب-44</td>
+            <td class="sign_txt">ب-46</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/68.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/69.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/70.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">سر إلى اليسار من خلف<br>الشاخصة اذا كان السهم<br>باللون الأصفر يدل على<br>اتجاه السير
+                للمواصلات<br>العمومية فقط
+            </td>
+            <td class="sign_txt">سر إلى الأمام<br>(إذا كان السهم مائلاً فسر باتجاه السهم)<br>إذا كان السهم باللون الأصفر<br>يدل
+                على اتجاه السير<br>للمواصلات العمومية فقط
+            </td>
+            <td class="sign_txt">سر إلى اليسار أو إلى<br>الأمام إذا كان السهم<br>باللون الأصفر يدل على<br>اتجاه السير
+                للمواصلات<br>العمومية فقط
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">ب-47</td>
+            <td class="sign_txt">ب-48</td>
+            <td class="sign_txt">ب-49</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/71.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/72.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/73.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">سر إلى اليمين<br>أو إلى اليسار إذا كان<br>السهم باللون الأصفر يدل<br>على اتجاه السير
+                للمواصلات<br>العمومية فقط
+            </td>
+            <td class="sign_txt">أعطِ حق الأولوية لحركة<br>السير القاطعة طريقك<br>والتي تسير حول الدوار<br>واعبر الدوار
+                من جانبه الأيمن
+            </td>
+            <td class="sign_txt">يجوز عبور المكان<br>الموسوم بهذه الشاخصة<br>من اليمين أو من اليسار<br>إذا كان السهم
+                باللون<br>الأصفر يدل على اتجاه<br>السير للمواصلات العمومية فقط
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">ب-51</td>
+            <td class="sign_txt">ب-52</td>
+            <td class="sign_txt">ب-53</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/74.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/75.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/76.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">اعبر المكان الموسوم بالشاخصة<br>من جانبه الأيسر</td>
+            <td class="sign_txt">طريق للمركبات الميكانيكية فقط</td>
+            <td class="sign_txt">طريق للمركبات الميكانيكية<br>التي تستطيع ويجوز لها<br>السير بسرعة لا تقل<br>عن ما هو
+                مسجل في<br>الشاخصة بالكم/ساعة
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">ب-54</td>
+            <td class="sign_txt">ب-55</td>
+            <td class="sign_txt">ب-57</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/77.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/78.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/79.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">الدخول إلى طريق سريعة:<br>ممنوع دخول المشاة<br>والدراجات الهوائية<br>والمركبات البطيئة
+                وعربات<br>اليد والحيوانات ولكل<br>مركبة لا تستطيع ولا يجوز<br>لها السير بالسرعة<br>المذكورة في الشاخصة
+                ب-53
+            </td>
+            <td class="sign_txt">نهاية الطريق السريعة</td>
+            <td class="sign_txt">مكان إنزال واصعاد<br>الركاب للصالون العمومي<br>بدون انتظار</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">ب-58</td>
+            <td class="sign_txt">ب-59</td>
+            <td class="sign_txt">ب-60</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/80.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/81.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/82.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">محطة صالون عمومي:<br>ممنوع وقوف أو توقف<br>أية مركبة أخرى<br>باستثناء إنزال الركاب</td>
+            <td class="sign_txt">نهاية منطقة محطة الصالون العمومي</td>
+            <td class="sign_txt">ممنوع دخول التراكتورات ومركبات العمل</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">ب-61</td>
+            <td class="sign_txt">ب-62</td>
+            <td class="sign_txt">ب-63</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/83.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/84.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/85.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">ممنوع دخول الحيوانات أو العربات التي تجرها الحيوانات</td>
+            <td class="sign_txt">ممنوع دخول الدراجات الهوائية</td>
+            <td class="sign_txt">سبيل للدراجات الهوائية فقط</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">ب-63-أ</td>
+            <td class="sign_txt">ب-64-ب</td>
+            <td class="sign_txt">ب-64</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/86.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/87.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/88.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">سبيل للدراجات الهوائية وللمشاة فقط</td>
+            <td class="sign_txt">سبيلان منفردان للدراجات الهوائية وللمشاة فقط</td>
+            <td class="sign_txt">ممنوع دخول المشاة بما في ذلك طرف الطريق</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">ب-65</td>
+            <td class="sign_txt">ب-66</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/89.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/90.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">سبيل للمشاة فقط</td>
+            <td class="sign_txt">ممنوع دخول<br>مركبة تنقل مواد خطرة<br>والملزمة بوسم بموجب القانون</td>
+        </tr>
+
+
+    </table>
+</div>
+<div class="signs_tables" id="query">
+    <table>
+        <tr>
+            <td colspan="3" style="text-align: center;">شاخصات (إشارات) التحذير</td>
+        </tr>
+        <tr>
+            <td class="sign_txt">ج-1</td>
+            <td class="sign_txt">ج-4</td>
+            <td class="sign_txt">ج-5</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/91.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/92.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/93.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">موقف للمركبات،<br>وإذا ذُكر نوع من المركبات<br>في اللافتة التي تحت الشاخصة<br>فيكون
+                الموقف للمركبات<br>المذكورة فقط
+            </td>
+            <td class="sign_txt">طريق بدون مخرج</td>
+            <td class="sign_txt">لك حق الأولوية في<br>الطريق الضيقة بالنسبة<br>لحركة السير من<br>الاتجاه المعاكس</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td class="sign_txt">ج-6</td>
+            <td class="sign_txt">ج-6-أ</td>
+            <td class="sign_txt">ج-7</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/94.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/95.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/96.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">الدخول إلى مقطع طريق فيها<br>حركة السير باتجاه السهم<br>فقط (طريق ذات اتجاه واحد)<br>وحتى
+                المفترق القريب أو لغاية الشاخصة أ-38
+            </td>
+            <td class="sign_txt">حركة السير باتجاه<br>السهم الأبيض مسموحة لجميع المركبات،<br>أما المركبات التي سُمح له
+                بالسير بموجب<br>الشاخصة ب-35 فيجوز<br>لها السير في الاتجاه المعاكس
+            </td>
+            <td class="sign_txt">مكان عبور المشاة</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">ج-28</td>
+            <td class="sign_txt">ج-29</td>
+            <td class="sign_txt">ج-38</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/97.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/98.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/99.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">لافتة إرشاد قبل المفترق:<br>تُظهر شكل المفترق.<br>سهم عريض: طريق رئيسية<br>سهم رفيع:
+                طريق ثانوية .
+            </td>
+            <td class="sign_txt">لافتة إرشاد قبل محول في طريق سريعة</td>
+            <td class="sign_txt">مكان وقوف لمركبة معاق - مشلول الأرجل</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">ج-39</td>
+            <td class="sign_txt">ج-40</td>
+            <td class="sign_txt">ج-44</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/100.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/101.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/102.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">عدد المسالك في الشارع آخذ في التزايد</td>
+            <td class="sign_txt">عدد المسالك في الشارع آخذ في التناقص</td>
+            <td class="sign_txt">يجوز الوقوف على<br>الرصيف كما هو موسوم<br>في الشاخصة،<br>وذلك للمركبات الخصوصية<br>والخصوصية
+                المزدوجة الاستعمال<br>والمركبات التجارية<br>التي لا يزيد وزنها الإجمالي<br>المسموح به عن 2200كغم
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td class="sign_txt">ج-45</td>
+            <td class="sign_txt">ج-46</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/103.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/104.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">شارع مختلط</td>
+            <td class="sign_txt">نهاية الشارع المختلط</td>
+        </tr>
+
+    </table>
+</div>
+<div class="signs_tables" id="road">
+    <table>
+        <tr>
+            <td colspan="3" style="text-align: center;">شاخصات (إشارات) التحذير</td>
+        </tr>
+        <tr>
+            <td class="sign_txt">د-1</td>
+            <td class="sign_txt">د-2</td>
+            <td class="sign_txt">د-3</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/105.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/106.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/107.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">خط متقطع: خط<br>محور الشارع أو خط<br>مسلك على من يسوق مركبة<br>أو حيوان أن يسوق
+                مركبته<br>أو الحيوان في المسلك الأيمن<br>الأقصى ولا يجوز له عبور<br>الخط بجسم المركبة أو<br>بقسمٍ منه
+                إلا من اجل التجاوز<br>أو من اجل تنفيذ أمرٍ قانوني
+            </td>
+            <td class="sign_txt">خطوط متقاطعة متوازية:<br>خطوط مسلك في شارع ذو<br>ثلاثة مسالك أو<br>اكثر - على من يسوق
+                مركبة<br>أو حيوان أن يسوق مركبته أو<br>الحيوان في المسلك الأيمن الأقصى<br>ولا يجوز له عبور الخطوط
+                بجسم<br>المركبة أو بقسمٍ منه إل<br>من اجل التجاوز أو من<br>اجل تنفيذ أمرٍ قانوني
+            </td>
+            <td class="sign_txt">خط متقطع مزدوج<br>باللون الأصفر ويُستعمل<br>لوسم مسلك للمواصلات العمومية:<br>يجوز السفر
+                في المسلك<br>للمركبات المذكورة في<br>الشاخصة ب-35
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td class="sign_txt">د-5</td>
+            <td class="sign_txt">د-7</td>
+            <td class="sign_txt">د-8</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/108.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/109.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/110.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">خط فاصل متواصل:<br>إذا وُسم الشارع بخط فاصل<br>متواصل فعلى السائق أن<br>يسوق مركبته أو
+                يقود<br>الحيوان على الجانب<br>الأيمن للخط ولا يجوز<br>له عبور الخط بجسم<br>المركبة أو بقسمٍ منه
+            </td>
+            <td class="sign_txt">خط متقطع متراص (خط توجيه):<br>يشير إلى ظهور خط فاصل<br>متواصل،<br>على سائق المركبة
+                التوجه<br>بمركبته إلى المسلك<br>الأيمن قبل بداية<br>الخط الفاصل المتواصل
+            </td>
+            <td class="sign_txt">خط متقطع بجانب خط<br>فاصل متواصل: يجوز<br>اختراق الخطوط إذا كان<br>الخط المتقطع على
+                يمين<br>الخط الفاصل المتواصل<br>وإذا كانت الطريق خالية.
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">د-9</td>
+            <td class="sign_txt">د-10</td>
+            <td class="sign_txt">د-11</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/111.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/112.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/113.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">خط حدود: يشير الخط إلى<br>حافة الشارع في المكان<br>الذي لا توجد فيه أحجار حافَة.<br>على
+                سائق المركبة الميكانيكية<br>أن يسوق مركبته على الجانب<br>الأيسر للخط ولا يجوز له<br>العبور إلى يمين الخط<br>إلا
+                من اجل منع وقوع حادث<br>أو منع عرقلة لحركة السير
+            </td>
+            <td class="sign_txt">خط توقف : مكان توقف المركبة أو الحيوان<br>(قبل الخط وقريباً منه) عندما يكون هناك
+                واجب<br>التوقف .
+            </td>
+            <td class="sign_txt">خط مستطيلات: يشير<br>إلى تغيير وجهة المسلك<br>وذلك للاستدارة إلى<br>اليمين أو إلى
+                اليسار فقط.
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">د-12</td>
+            <td class="sign_txt">د-14</td>
+            <td class="sign_txt">د-15</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/114.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/115.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/116.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">مكان عبور للمشاة:<br>إذا قُسِّم مكان العبور<br>إلى قسمين، فعلى<br>الماشي أن يعبر من<br>القسم
+                الأيمن لمكان العبور.
+            </td>
+            <td class="sign_txt">خطوط توجيه للاستدارة في المفترقات<br>(خطوط متقطعة أو أزرار)</td>
+            <td class="sign_txt">أسهم للسير في المفترق<br>يجوز عبور المفترق<br>من المسلك الموسوم<br>بالسهم فقط باتجاه
+                السهم.
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td class="sign_txt">د-17</td>
+            <td class="sign_txt">د-18</td>
+            <td class="sign_txt">د-19</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/117.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/118.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/119.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">مكان عبور للمشاة:<br>إذا قُسِّم مكان العبور<br>إلى قسمين، فعلى<br>الماشي أن يعبر من
+                القسم<br>الأيمن لمكان العبور.
+            </td>
+            <td class="sign_txt">خطوط توجيه للاستدارة<br>في المفترقات<br>(خطوط متقطعة أو أزرار)</td>
+            <td class="sign_txt">أسهم للسير في المفترق<br>يجوز عبور المفترق من<br>المسلك الموسوم بالسهم<br>فقط باتجاه
+                السهم<br>.
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">د-20</td>
+            <td class="sign_txt">د-22</td>
+            <td class="sign_txt">د-24</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/120.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/121.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/122.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">جزر سير (بأشكال مختلفة)،<br>موسومة على الشارع.<br>لا يجوز لسائق المركبة<br>أو الحيوان
+                السير<br>أو الوقوف عليها.
+            </td>
+            <td class="sign_txt">مكان توقف لأنواع معينة<br>من المركبات في المكان<br>الذي يوجد فيه خليج<br>لهذا الغرض: لا
+                يجوز توقف مركبة<br>داخل الخليج أو بجانب<br>الخط المتقطع. يجوز توقف<br>مركبة من اجل إنزال<br>أو إصعاد
+                الركاب فقط<br>في داخل الخليج إذا<br>كانت المركبة من النوع<br>الذي ذُكر أنه يُسمح له<br>بالتوقف بواسطة
+                شاخصة
+            </td>
+            <td class="sign_txt">أحجار حافَة مصبوغة<br>بالأزرق بالتناوب يجوز<br>الوقوف على الشارع<br>بجانب أحجار الحافَة<br>بواسطة
+                بطاقات وقوف
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">د-25</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/123.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">أحجار حافَة مصبوغة بالأحمر<br>والأصفر: ممنوع التوقف إلا<br>لأنواع المركبات التي
+                سُمح<br>بتوقفها بواسطة شاخصة<br>(محطة باص يعمل على<br>خط خدمة، محطة بهو عمومي،<br>محطة لنقل الجنود).
+            </td>
+        </tr>
+    </table>
+</div>
+<div class="signs_tables" id="lights">
+    <table>
+        <tr>
+            <td colspan="3" style="text-align: center;">شاخصات (إشارات) التحذير</td>
+        </tr>
+        <tr>
+            <td class="sign_txt">هـ-1</td>
+            <td class="sign_txt">هـ-2</td>
+            <td class="sign_txt">هـ-3</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/124.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/125.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/126.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt"><b>((ضوء أحمر))</b><br>قف!<br>و إذا وُسم خط وقوف<br>فتوقف قبل خط الوقوف،<br>فإذا لم
+                يوجد فقف قبل ممر<br>المشاة، أما إذا لم يوسم خط<br>وقوف أو ممر مشاة فقف<br>بجانب الآلة الضوئية القريبة
+            </td>
+            <td class="sign_txt"><b>((ضوء أحمر مع ضوء أصفر))</b><br>قف كما ذُكر بالنسبة للشاخصة<br>هـ-1، حتى ظهور
+                الضوء<br>الأخضر. يُحظر العبور عن<br>خط الوقوف أو ممر المشاة<br>أو الدخول إلى المفترق ما<br>دام الضوء
+                الأحمر مضيئاً مع<br>الضوء الأصفر. استعد للسير<br>عندما تتغير الإشارة
+            </td>
+            <td class="sign_txt">((ضوء أخضر))<br>تقدم ! يجوز السير إلى<br>الأمام والى اليمين والى<br>اليسار ما لم تكن
+                هناك<br>شاخصة إرشاد فوق الآلة<br>الضوئية التي تشير إلى<br>خلاف ذلك و إذا ظهر ضوء<br>اخضر متقطع فمعناه
+                بأن الضوء<br>الأخضر سينتهي ويظهر بعده<br>الضوء الأصفر
+            </td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td class="sign_txt">هـ-5</td>
+            <td class="sign_txt">هـ-7</td>
+            <td class="sign_txt">هـ-8</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/127.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/128.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/129.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">((ضوء أصفر))<br>على من يقترب من المفترق<br>أن يقف كما ذُكر بالنسبة<br>للشاخصة هـ-1،<br>إلا
+                إذا لم يكن بإمكان السائق<br>أن يتوقف بأمان قبل المفترق<br>وعلى من دخل المفترق أن<br>يخليه فوراً
+            </td>
+            <td class="sign_txt">آلة ضوئية خاصة للمركبات<br>قبل ممر مشاة فيه<br>آلة ضوئية للمشاة أو<br>قبل أي عائق آخر
+                في الطريق<br>((ضوء أحمر))<br>قف قبل خط التوقف وإذا<br>لم يكن هناك خط توقف<br>فقبل ممر المشاة
+            </td>
+            <td class="sign_txt">آلة ضوئية خاصة للمركبات<br>قبل ممر مشاة فيه<br>آلة ضوئية للمشاة أو قبل<br>أي عائق آخر
+                في الطريق<br>((ضوء أصفر))<br>(أ) ضوء اصفر متقطع: تقدم بانتباه<br>مع مراعاة أحكام الشاخصات<br>(ب) ضوء
+                اصفر ثابت:<br>كمدلول الضوء الأصفر في<br>شاخصة هـ-5
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">هـ-9</td>
+            <td class="sign_txt">هـ-10</td>
+            <td class="sign_txt">هـ-11</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/130.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/131.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/132.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">آلة ضوئية خاصة للمركبات<br>قبل منعطف أو تحذير عام أو قبل ممر<br>مشاة ضوء اصفر متقطع مع
+                أو<br>بدون شكل ماشي (أ) تقدم بحذر مع مراعاة<br>أحكام الشاخصات. (ب) إذا أُقيمت آلة ضوئية<br>للمشاة بجانب
+                ممر المشاة فعلى سائق<br>المركبة أن يُمَكِن<br>الماشي من عبور الشارع بأمان.
+            </td>
+            <td class="sign_txt">آلة ضوئية خاصة بالمشاة<br>بجانب ممر المشاة.<br>شكل شخص واقف باللون<br>الأحمر يُحظر عبور
+                الشارع<br>وعلى من يتواجد في<br>الشارع أن يخليه فوراً
+            </td>
+            <td class="sign_txt">آلة ضوئية خاصة<br>بالمشاة بجانب ممر المشاة.<br>شكل شخص ماشي باللون الأخضر<br>يجوز عبور
+                الشارع بحذر<br>على ممر المشاة.
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">هـ-12</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/133.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">ضوء احمر مزدوج متقطع<br>قف قبل خط التوقف وإذا<br>لم يوجد خط توقف فقبل الحاجز<br>القريب
+                وإذا لم يوجد حاجز<br>فعلى مسافة لا تقل عن<br>4م من خط السكة القريب،<br>وتلك لغاية توقف الضوء<br>الأحمر
+                المتقطع
+            </td>
+        </tr>
+
+    </table>
+</div>
+<div class="signs_tables" id="helping">
+    <table>
+        <tr>
+            <td colspan="3" style="text-align: center;">شاخصات (إشارات) التحذير</td>
+        </tr>
+        <tr>
+            <td class="sign_txt">و-1</td>
+            <td class="sign_txt">و-2</td>
+            <td class="sign_txt">و-3</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/134.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/135.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/136.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">حاجز قبل ملتقى سكة حديد:<br>إذا كان الحاجز في حالة<br>نزول أو في وضع أفقي، فعلى<br>عابر
+                الطريق التوقف قبله
+            </td>
+            <td class="sign_txt">حاجز قبل مكان عمل<br>أو لسد طريق من قِبل<br>سلطة مخولة: الطريق<br>مسدودة، إذا لم يتم سد<br>الطريق
+                على عرضها،<br>فيجوز لعابر الطريق<br>تجاوز الحاجز والاستمرار<br>بحذر على طول مكان<br>العمل، إذا تم سد<br>كل
+                الطريق، فيجوز لعابر<br>الطريق التقدم فقط بالاتجاه<br>الذي يتم توجيهه إليه بواسطة<br>شاخصة مناسبة.
+            </td>
+            <td class="sign_txt">أحجار الحافة مدهونة باللون<br>الأسود والأبيض:<br>لإظهار وإبراز الحافات<br>أو الفواصل أو
+                الجزر المبنية
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td class="sign_txt">و-5</td>
+            <td class="sign_txt">و-7</td>
+            <td class="sign_txt">و-8</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/137.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/138.jpg" alt="sign"></td>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/139.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">أزرار مع أو بدون عاكس<br>ضوء لإظهار وإبراز<br>ترتيبات السير أو<br>وسم في الطريق وحسب
+                لون الوسم
+            </td>
+            <td class="sign_txt">حاجز لوقاية المارة:<br>بإغلاق مساحة الشارع<br>أمام المشاة، لا يجوز<br>للماشي دخول مساحة<br>الطريق
+                التي يسدها الحاجز
+            </td>
+            <td class="sign_txt">شاخصة تحذير وإرشاد في<br>ملتقى تفرع طرق: على سائق<br>المركبة أن يتمهل بالسير<br>ويتابع
+                سيره بالاتجاهات<br>الموسومة باسهم على الشاخصة.<br>في الأمكنة التي تنفذ فيها<br>أشغال على الطريق تكون<br>الألوان
+                برتقالي - ابيض
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">و-9</td>
+        </tr>
+        <tr>
+            <td><img class="sign_img" src="../images/traffic_signs_visual/140.jpg" alt="sign"></td>
+        </tr>
+        <tr>
+            <td class="sign_txt">شاخصة تحذير وإرشاد<br>في منعطف حاد: على<br>سائق المركبة أن يتمهل<br>بالسير ويتابع سيره
+                بالاتجاه<br>الموسوم باسهم على الشاخصة.<br>في الأمكنة التي تنفذ فيها<br>أشغال على الطريق تكون<br>الألوان
+                برتقالي - ابيض.
+            </td>
+        </tr>
+    </table>
+</div>
+
+<a href="#top_of_the_page" class="top_button">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-chevron-double-up"
+         viewBox="0 0 16 16">
+        <path fill-rule="evenodd"
+              d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z"/>
+        <path fill-rule="evenodd"
+              d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+    </svg>
+</a>
+
+<!--about us-->
+
+<div class="about-us container-fluid d-flex justify-content-center" id="AboutUsSection">
+    <div class="wall-text-background text-center text-secondary" style="color: white">
+        <p class="h5 text-light">محمد خليل ابو لطيفة (ابو خليل ) لتعليم السياقة خصوصي - عمومي - شحن</p>
+        <p class="h5 text-light">العنوان: بيت لحم - شارع جمال عبد الناصر مقابل فيليه مول</p>
+        <p class="h5 text-light">رقم مدير المدرسة: 0599125125 - مدربة السياقة رنا جحا: 0595067949</p>
+        <br>
+        <a href="https://www.facebook.com/profile.php?id=100088152950576">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-facebook"
+                 viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+            </svg>
+        </a>
+        <a class="btn btn-light" href="tel:123-456-7890"
+           style="border: 1px solid white; padding: 10px; border-radius: 50%; margin-right: 10px">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#383c44" class="bi bi-telephone-fill"
+                 viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                      d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+            </svg>
+        </a>
+
+    </div>
+</div>
+
+<!-- javascript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+</html>

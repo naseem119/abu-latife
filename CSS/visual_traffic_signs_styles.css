@@ -1,0 +1,63 @@
+
+.signs_tables {
+    box-sizing: border-box;
+    margin-top: 4rem;
+}
+
+table {
+    table-layout: auto;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    display: table;
+    border-collapse: collapse;
+    border: 1px solid #2D3B4C;
+    border-spacing: 0;
+}
+
+
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #2D3B4C;
+}
+
+.sign_img {
+    max-width: 100%;
+}
+
+.sign_txt {
+    background-color: #d9d9d9;
+    max-width: 100%;
+    font-size: 15px;
+}
+
+.top_button {
+    background: #7b7b7c;
+    position: fixed;
+    padding: 20px;
+    border-radius: 30px;
+    bottom: 30px;
+    right: 30px;
+    transition: 0.3s;
+}
+
+.top_button:hover {
+    transform: scale(1.1);
+}
+
+.traffic-signs-buttons {
+    margin: 5px;
+    width: 70%;
+    align-self: center;
+}
+
+@media (min-width: 750px) {
+    .traffic-signs-buttons {
+        width: 25%;
+        margin: 5px;
+    }
+}
+

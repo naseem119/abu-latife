@@ -1,0 +1,26 @@
+.gallery-box {
+    width: 100%;
+    min-height: 80vh;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-gap: 30px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.gallery img:hover {
+    border: none;
+    transform: scale(1.03);
+    border-radius: 3px;
+}
