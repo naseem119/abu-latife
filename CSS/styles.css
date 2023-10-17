@@ -42,6 +42,10 @@ body {
 /*wall and content*/
 
 .wall {
+    background-image: url("../images/wall/wall.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding-top: 100px;
     padding-bottom: 20px;
 }
