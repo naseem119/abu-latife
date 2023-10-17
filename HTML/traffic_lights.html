@@ -7,8 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../CSS/styles.css">
-    <link rel="stylesheet" type="text/css" href="../CSS/practical_images_style.css">
-    <link rel="stylesheet" href="../CSS/lightbox.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../CSS/visual_traffic_signs_styles.css">
 </head>
 <body>
 
@@ -33,7 +32,7 @@
                         أدرس التؤوريا
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="dropdownItems2">
-                        <li><a class="dropdown-item" href="#">المادة النظرية</a></li>
+                        <li><a class="dropdown-item" href="study_guide.html">المادة النظرية</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
@@ -41,11 +40,12 @@
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="practical_traffic_signs.html">اشارات المرور - فعلي</a></li>
+                        <li><a class="dropdown-item" href="practical_traffic_signs.html">اشارات المرور - فعلي</a>
+                        </li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="traffic_lights.html">اشارات المرور - شرح مفصل</a></li>
+                        <li><a class="dropdown-item" href="#">اشارات المرور - شرح مفصل</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
@@ -77,16 +77,17 @@
     </div>
 </nav>
 
-<!-- images section -->
-<div class="container-fluid quiz-section d-flex flex-column justify-content-center align-items-center"
-     style="background: none; border: none">
-    <p class="h3 section-titles text-secondary border-secondary" style="margin-top: 110px;">إشارات المرور - فعلي</p>
+<!--frame and its content-->
+<div style="align-content: center; text-align: center; margin-top: 50px;" id="top_of_the_page">
+    <h1 class="section-titles" style="margin: 3rem; font-size: 20px;"><span class="titles">المادة النظرية</span>
+    </h1>
+    <iframe sandbox = "allow-forms allow-pointer-lock allow-same-origin allow-scripts allow-top-navigation"
+            width="90%" height="600" src="https://online.fliphtml5.com/egzaj/arnu/"
+            frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen>
+    </iframe>
+
 </div>
-<div class="container-fluid gallery-box">
-    <div class="gallery" dir="ltr" id="gallery-container">
-        <!-- fill_images_practical.js adds images dynamically to this page-->
-    </div>
-</div>
+
 
 <!--about us-->
 
@@ -114,11 +115,18 @@
     </div>
 </div>
 
+
 <!-- javascript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-<script type="text/javascript" src="../JS/fill_images_practical.js"></script>
-<script src="../JS/lightbox-plus-jquery.js"></script>
+
+<script>
+    var frames = document.getElementsByTagName('iframe');
+    for (var frame of frames) {
+        frame.setAttribute("sandbox", "allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-scripts allow-top-navigation allow-forms");
+    }
+</script>
+
 </body>
 </html>
