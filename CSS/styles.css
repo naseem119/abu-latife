@@ -3,6 +3,7 @@
 
 body {
     font-family: 'Noto Kufi Arabic', sans-serif;
+    scroll-behavior: smooth;
 }
 
 /*navigation menu and buttons*/

@@ -8,6 +8,7 @@
           integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../CSS/styles.css">
     <link rel="stylesheet" type="text/css" href="../CSS/practical_images_style.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/visual_traffic_signs_styles.css">
     <link rel="stylesheet" href="../CSS/lightbox.min.css"/>
 </head>
 <body>
@@ -33,7 +34,7 @@
                         أدرس التؤوريا
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="dropdownItems2">
-                        <li><a class="dropdown-item" href="#">المادة النظرية</a></li>
+                        <li><a class="dropdown-item" href="study_guide.html">المادة النظرية</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
@@ -41,11 +42,11 @@
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="practical_traffic_signs.html">اشارات المرور - فعلي</a></li>
+                        <li><a class="dropdown-item" href="practical_traffic_signs.html">اشارات المرور - فعلي</a>
+                        </li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="traffic_lights.html">اشارات المرور - شرح مفصل</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
@@ -54,23 +55,23 @@
                         امتحانات التؤوريا
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="dropdownItems">
-                        <li><a class="dropdown-item" style="color: black;" href="#">تؤوريا خصوصي</a></li>
+                        <li><a class="dropdown-item" style="color: black;" href="quiz_private.html">تؤوريا خصوصي</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="#">تؤوريا شحن</a></li>
+                        <li><a class="dropdown-item" href="quiz_trucks.html">تؤوريا شحن</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="#">تؤوريا باص و عمومي</a></li>
+                        <li><a class="dropdown-item" href="quiz_bus.html">تؤوريا باص و عمومي</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="#">تؤوريا دراجة نارية</a></li>
+                        <li><a class="dropdown-item" href="quiz_motor.html">تؤوريا دراجة نارية</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link navButton" href="#" tabindex="-1" aria-disabled="true">من نحن</a>
+                    <a class="nav-link navButton" href="#AboutUsSection" tabindex="-1" aria-disabled="true">من نحن</a>
                 </li>
             </ul>
         </div>
@@ -78,7 +79,8 @@
 </nav>
 
 <!-- images section -->
-<div class="container-fluid quiz-section d-flex flex-column justify-content-center align-items-center"
+<div id="top_of_the_page"
+     class="container-fluid quiz-section d-flex flex-column justify-content-center align-items-center"
      style="background: none; border: none">
     <p class="h3 section-titles text-secondary border-secondary" style="margin-top: 110px;">إشارات المرور - فعلي</p>
 </div>
@@ -87,6 +89,16 @@
         <!-- fill_images_practical.js adds images dynamically to this page-->
     </div>
 </div>
+
+<a href="#top_of_the_page" class="top_button">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-chevron-double-up"
+         viewBox="0 0 16 16">
+        <path fill-rule="evenodd"
+              d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z"/>
+        <path fill-rule="evenodd"
+              d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+    </svg>
+</a>
 
 <!--about us-->
 
