@@ -37,7 +37,7 @@ let timer = document.getElementById("timer");
 let quizzes_buttons = document.getElementById("quizzes");
 if (quiz_type_str === "الامتحان: خصوصي") {
     quiz_directory_str = "../Quizzes/private";
-    quiz_directory_size = 25;
+    quiz_directory_size = 28;
 } else if (quiz_type_str === "الامتحان: شحن") {
     quiz_directory_str = "../Quizzes/trucks";
     quiz_directory_size = 31;
@@ -78,10 +78,14 @@ let next_btn = document.getElementById("next");
 prev_btn.addEventListener("click", function () {
     curr_question--;
     setQuestion();
+    if (quiz_done)
+        checkAnswers()
 });
 next_btn.addEventListener("click", function () {
     curr_question++;
     setQuestion();
+    if (quiz_done)
+        checkAnswers()
 });
 
 let quiz_select_buttons = document.getElementsByClassName("choose-quiz-btn");
@@ -168,10 +172,12 @@ function checkAnswers() {
 
     for (let i = 0; i < answers.length; i++) {
         answer_buttons_spans[i].classList.remove("good");
+        answer_buttons_spans[i].classList.remove("rgood");
         answer_buttons_spans[i].classList.remove("bad");
+        answer_buttons_spans[i].classList.remove("rbad");
+
         if (answers[i].answerText === json_file[curr_question].answer) {
             answer_buttons_spans[i].classList.add("good");
-            console.log("as");
             continue;
         }
         if (answers[i].answerText === user_answers[curr_question] && user_answers[curr_question] !== "")
@@ -197,13 +203,15 @@ function setQuestionsButtons(size) {
             curr_question = i;
             setQuestion();
             questions_buttons_spans[curr_question].classList.add("select-question-span-current");
+            if (quiz_done)
+                checkAnswers()
         });
     }
 }
 
 function startQuiz(quizNumber) {
     clearInterval(countdownInterval)
-    countdown(40 * 60);
+    countdown(30 * 60);
     let curr_directory = quiz_directory_str + "/quiz" + quizNumber + ".json";
     curr_question = 0;
     console.log(curr_directory);
@@ -279,7 +287,7 @@ function countdown(duration) {
         }else{
             timer.classList.remove("bad");
         }
-        if (--duration < 0) {
+        if (--duration < 0 || quiz_done) {
             clearInterval(countdownInterval);
             finishQuiz();
         }
