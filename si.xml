@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Home Page -->
+    <url>
+        <loc>https://abulatifeschool.000webhostapp.com/index.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <!-- Study Material Section -->
+    <url>
+        <loc>https://abulatifeschool.000webhostapp.com/HTML/study_guide.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://abulatifeschool.000webhostapp.com/HTML/visual_traffic_signs.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://abulatifeschool.000webhostapp.com/HTML/practical_traffic_signs.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <!-- Quiz Section -->
+    <url>
+        <loc>https://abulatifeschool.000webhostapp.com/HTML/quiz_private.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://abulatifeschool.000webhostapp.com/HTML/quiz_trucks.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://abulatifeschool.000webhostapp.com/HTML/quiz_bus.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://abulatifeschool.000webhostapp.com/HTML/quiz_motor.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+</urlset>
